@@ -1,0 +1,40 @@
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    background-color: #fffaf0; 
+  }
+  
+  .btn-primary {
+    background-color: #8b4513;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a0522d; 
+  }
+  
+  .text-decoration-none {
+    color: #8b4513; 
+  }
+  
+  .text-decoration-none:hover {
+    color: #a0522d; 
+  }
+  
+  .header-background {
+    background-color: #ffebcd; 
+    padding: 15px; 
+    border-radius: 8px; 
+    color: #8b4513; 
+    font-family: 'Georgia', serif; 
+  }
+   
+  h1{
+    color: #8b4513; 
+    font-family: 'Georgia', serif; 
+  }
+
+  

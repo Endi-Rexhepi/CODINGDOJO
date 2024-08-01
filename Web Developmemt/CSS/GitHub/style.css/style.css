@@ -1,0 +1,36 @@
+.black-border{
+    border: 2px solid black;
+}
+.color1{
+    background-color: rgb(215, 215, 215);
+}
+.h1color{
+    color: rgba(17, 17, 17, 0.71);
+}
+.align{
+    text-align: center;
+    font-size: 300%;
+}
+.d-flex{
+    display: flex;
+}
+.c-blue{
+    background-color: aqua;
+}
+
+.h-200{
+    height: 200px;
+}
+.c-around{
+    justify-content: space-around;
+}
+.p-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.c-pink{
+    background-color: pink;
+}
+.c-evenly{
+    justify-content: space-evenly;
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.h-list{
+    list-style: none;
+    margin-right:13.5%;
+    font-size:19px;
+    text-align: center;
+}
+
+
+nav {
+    color: #ffffff;
+    background-color: #9fc5f8;
+}
+
+.j-content{
+    justify-content: space-around;
+}
+
+.m-right{
+    margin-right: 40px;
+}
+
+.m-left{
+    margin-left: 115px;
+}
+
+nav{
+    height: 80px;
+}
+
+.a-items{
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.h-list li{
+    font-size: 25px;
+}
+
+.fontSize{
+    font-size: 40px;
+}
+
+.mTop{
+    margin-top: 20px;
+}
+
+.borderBottom{
+    border-bottom: 2px solid black;
+}
+
+.insideNav{
+    width: 80%;
+    margin: auto;
+}
+
+header{ 
+    width: 65%;
+    margin: auto;
+}
+
+main{
+    width: 65%;
+    margin: auto;
+}
+
+.j-contentSpaceBetween{
+    justify-content: space-between;
+}
+
+.flexVertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redDegree{
+    color: #cf2a27;
+    margin-right: 20px;
+}
+
+.blueDegree{
+    color: #327ce3;
+    margin-left: 20px;
+}
+
+.weatherBox{
+    background-color: #eeeeee;
+}
+
+.img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.mBottom{
+    margin-bottom: 20px;
+}
+
+.fontSize2{
+    font-size: 25px;
+}
+
+.fontWeight{
+    font-weight: bolder;
+}
+
+.p-left{
+    padding-left: 20px;
+}
+.p-right{
+    padding-right: 20px;
+}
+
+.mRight60{
+    margin-right: 60px;
+}
+
+.widthBox{
+    width: 180px;
+    height: 330px;
+}
+
+.lastBox{
+    width: 62.2%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    position: fixed;
+    top: 510px;
+    left: 269px;
+}
+
+.pWidth{
+    width: 700px;
+    font-size: 22px;
+}
+
+.lastH{
+    font-size: 26px;
+}
+
+.lastA{
+    color: #21639d;
+}
+
+.lastButton{
+    background-color: #9fc5f8;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 2px 10px;
+    box-shadow: 4px 4px black;
+}

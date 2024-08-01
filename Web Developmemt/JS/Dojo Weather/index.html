@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <nav class="d-flex">
+        <div class="insideNav d-flex j-contentSpaceBetween a-items">
+            <h1 class="m-left">DojoWeather</h1>
+            <ul class="d-flex h-list">
+                <li class="m-right" id="burbank" onclick="alert('Loading weather report...'), changeCity()">Burbank</li>
+                <li class="m-right">Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </div>
+    </nav>
+    <header class="d-flex j-contentSpaceBetween a-items borderBottom mTop">
+        <h2 class="fontSize" id="sanJose">San Jose</h2>
+        <div>
+            <label>Show temperature in</label>
+            <select name="degree" id="degree" class="">   
+                <option value="">°C</option>
+                <option value="">°F</option>
+            </select>
+        </div>
+    </header>
+    <main class="d-flex mTop">
+        <div class="flexVertical weatherBox m-right p-left p-right widthBox">
+            <div class="flexVertical j-content">
+                <h3 class="mTop fontSize2">Today</h3>
+                <img src="./assets/some_rain.png" alt="" class="img mTop">
+                <p class="mTop fontWeight">some rain</p>
+            </div>
+            <div class="d-flex mTop mBottom">
+                <h3 class="redDegree">24°</h3>
+                <h3 class="blueDegree">18°</h3>
+            </div>
+        </div>
+        <div class="flexVertical weatherBox m-right p-left p-right widthBox">
+            <div class="flexVertical j-content">
+                <h3 class="mTop fontSize2">Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="" class="img mTop">
+                <p class="mTop fontWeight">some sun</p>
+            </div>
+            <div class="d-flex mTop mBottom">
+                <h3 class="redDegree">27°</h3>
+                <h3 class="blueDegree">19°</h3>
+            </div>
+        </div>
+        <div class="flexVertical weatherBox m-right p-left p-right widthBox">
+            <div class="flexVertical j-content">
+                <h3 class="mTop fontSize2">Friday</h3>
+                <img src="./assets/some_clouds.png" alt="" class="img mTop">
+                <p class="mTop fontWeight">some clouds</p>
+            </div>
+            <div class="d-flex mTop mBottom">
+                <h3 class="redDegree">21°</h3>
+                <h3 class="blueDegree">16°</h3>
+            </div>
+        </div>
+        <div class="flexVertical weatherBox p-left p-right widthBox">
+            <div class="flexVertical j-content">
+                <h3 class="mTop fontSize2">Saturday</h3>
+                <img src="./assets/some_sun.png" alt="" class="img mTop">
+                <p class="mTop fontWeight">some sun</p>
+            </div>
+            <div class="d-flex mTop mBottom">
+                <h3 class="redDegree">26°</h3>
+                <h3 class="blueDegree">21°</h3>
+            </div>
+        </div>        
+    </main>
+    <div class="d-flex a-items lastBox j-content mTop" id="lastBox">
+        <img src="./assets/cookie.png" alt="">
+        <div>
+            <h3 class="lastH">Stop! Cookie time</h3>
+            <p class="pWidth">We use cookies (sadly not the edible ones) to personalize content and adds, to provide social media features and to analyse our traffic. <a href="" class="lastA">Read more...</a></p>
+        </div>
+        <button class="lastButton" onclick="removeButton(this)">I Accept</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

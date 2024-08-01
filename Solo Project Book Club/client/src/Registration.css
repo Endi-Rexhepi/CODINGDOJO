@@ -1,0 +1,69 @@
+/* Registration.css */
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #fdf6e3; /* Light, warm background color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensure full width */
+  }
+  
+  .login-content {
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #ffebcd; /* Light warm color */
+    border-bottom: none;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+    font-family: 'Georgia', serif; /* Serif font for a bookish feel */
+    color: #8b4513; /* Warm brown color */
+  }
+  
+  .card-body {
+    background-color: #fffaf0; /* Light, warm background color */
+  }
+  
+  .btn-primary {
+    background-color: #8b4513;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a0522d; /* Slightly darker brown */
+  }
+  
+  .text-center a {
+    color: #8b4513;
+  }
+  
+  .text-center a:hover {
+    color: #a0522d;
+  }
+  

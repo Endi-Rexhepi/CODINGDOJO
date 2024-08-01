@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./buttonCSS/style.css">
+</head>
+<body class="m-header">
+    <header class="d flex bg-color">
+        <div class="d-flex jc-se a-items" >
+            <h1 class="mLeftRight m-top">Dojonary</h1>
+            <input type="text" class="m-top input1" placeholder="Search">
+            <button class="mLeftRight  m-top button1" id="Login" onclick="logout(this)">Login</button>
+        </div>
+    </header>
+    <main class="m-top">
+        <div>
+            <div class="d-flex">
+                <div class="d-flex a-items style1 flex-2">
+                    <div class="flexVertical fontSize">
+                        <h1>ninja</h1>
+                        <h3 class="italics pstyle1">noun</h3>
+                        <p class="pstyle1">Plural: <span class="italics ">ninjas</span></p>
+                        <button class="m-top button2" onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <p class="f-weight marginLeft30 padding-right">A practitioner skilled in the <a href="">Japanase</a> art of <a href="">ninjutsu</a></p>
+                </div>
+                <div class="flex-1 style2 flexVertical">
+                    <h2 class="fontSize2"><span class="span2">Dojonary is defined by</span> YOU</h2>
+                    <button class="button3" onclick="removeDefinition(this)">Add Definition</button>
+                </div>
+            </div>
+            <div class="m-top">
+                <div class="d-flex a-items style1 flex-2">
+                    <div class="flexVertical fontSize">
+                        <h1>ninja</h1>
+                        <h3 class="italics pstyle1">noun</h3>
+                        <p class="pstyle1">Plural: <span class="italics ">ninjas</span></p>
+                        <button class="m-top button2" onclick="alert('Ninja was liked')">37 Likes</button>
+                    </div>
+                    <p class="f-weight width320 marginLeft30 padding-right">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

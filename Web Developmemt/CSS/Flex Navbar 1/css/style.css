@@ -1,0 +1,40 @@
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.c-white{
+    color: aliceblue;
+}
+.d-flex{
+    display: flex;
+}
+.link-color{
+    color: aliceblue;
+}
+.a-items{
+    align-items: center;
+}
+.nav-links li a{
+    text-decoration: none;    
+}
+.nav-links li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+.justify-spaceBetween{
+    justify-content:space-between ;
+}
+.nav{
+    padding: 0px 20px;
+}
+.btn{
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    background-color: rgb(90, 176, 210);
+    color: aliceblue;
+    box-shadow: 5px 5px 0px 0px black;
+    height: 40px;
+}
+.f-weight{
+    font-weight: bold;
+}

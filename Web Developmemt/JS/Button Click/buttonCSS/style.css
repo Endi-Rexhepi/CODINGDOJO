@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.d-flex{
+    display: flex;
+}
+.jc-se{
+    justify-content: space-between;
+}
+.bg-color{
+    background-color: #cccccc;
+}
+.m-header{
+    margin: 0px 10%;
+}
+.mLeftRight{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    height: 70px;
+}
+
+.a-items{
+    align-items: center;
+}
+.m-top{
+    margin-top: 15px;
+}
+.input1{
+    height: 25px;
+    width: 300px;
+    border: 3px solid black;
+    padding-left: 5px;
+}
+.button1{
+    width: 70px;
+    padding: 5px 0px;
+    background-color: #2b78e4;
+    color: #ffffff;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
+.italics{
+    font-style: italic;
+    font-size: larger;
+}
+.fontSize{
+    font-size: 25px;
+}
+main a{
+    color: #1f639d;
+}
+.f-weight{
+    font-weight: 600;
+    font-size: 25px;
+    width: 300px;
+}
+.style1{
+    border: 3px solid black;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: 70%;
+    height: 180px;
+}
+.marginLeft30{
+    margin-left: 30px;
+}
+.pstyle1{
+    font-weight: 300;
+}
+.button2{
+    background-color: #ffd966;
+    width: 95px;
+    padding: 5px 0px;
+    color: black;
+    font-weight: bold ;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
+.flexVertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.padding-right{
+    padding: 0px 40px;
+}
+
+.span2{
+    font-weight: lighter;
+}
+.style2{
+    border: 3px solid black;
+    width: 258px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 120px;
+}
+.button3{
+    background-color: #93c47d;
+    width: 170px;
+    padding: 5px 0px;
+    color: black;
+    font-weight: bold ;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    margin-top: 10px;
+}
+.fontSize2{
+    font-size: 25px;
+    width: 170px;
+}
+.width320{
+    width: 320px;
+}

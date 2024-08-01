@@ -1,0 +1,20 @@
+.white{
+    background-color: black;
+    color: white;
+}
+.blue{
+    color: lightskyblue;
+}
+.purple{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.lightblue{
+    background-color: lightskyblue;
+    color: black;
+    text-decoration:underline ;
+    text-align: end;
+    font-style: normal;
+}

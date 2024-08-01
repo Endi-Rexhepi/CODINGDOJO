@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar{
+    background-color: #0d0d0d;
+    height: 50px;
+    margin: 0px 5px;
+    border-radius: 6px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex{
+    flex: 1;
+}
+
+.a-items{
+    align-items: center;
+}
+
+.web-name{
+    background-color: #1f1a17;
+    color: #cecdcc;
+}
+
+.icon1{
+    padding-left: 20px;
+    width: 70px;
+}
+
+header span{
+    position: relative;
+    top: 18px;
+    right: 13px;
+}
+
+.h-list{
+    color: #c0c0c0;
+    list-style: none;
+    margin-right:13.5%;
+    font-size:19px;
+}
+
+.h-list li{
+    border-right: 2px solid #c0c0c0;
+    padding: 0px 30px;
+}
+
+#contact{
+    border-right: none;
+}
+
+.jc-spaceBetween{
+    justify-content: space-between;
+}
+
+.bg-color{
+    background-color: #eaeaea;
+}
+
+.p-left{
+    padding-left: 20px;
+}
+
+.m-top{
+    margin-top: 20px;
+}
+
+main h1{
+    width: 600px;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.marginMainPhoto{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #d6d6d6;
+    margin: 0px 10px;
+    padding: 8px 0px;
+}
+
+.p-upperMain{
+    font-size: 20px;
+    color: #7e7e7e;
+    width: 525px;
+}
+
+main button{
+    background-color: #0d0d0d;
+    border-radius: 4px;
+    border-style: none;
+    color: #b5b5b5;
+    height: 35px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 370px;
+    font-size: larger;
+}
+
+.icon2{
+    width: 60px;
+    height: 50px;
+}
+
+main div h3{
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2b2b2b;
+}
+
+.small-box{
+    width: 300px;
+    padding-left: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px 5px;
+    color: #7c7c7c;
+}
+
+.small-box2{
+    width: 290px;
+    padding: 0px 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px 10px;
+    color: #7c7c7c;
+}
+
+.small-box3{
+    width: 270px;
+    padding: 0px 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px 10px;
+    color: #7c7c7c;
+}
+
+.m-left{
+    margin-left: 10px;
+}
+
+.mLeft-5{
+    margin-left: 5px;
+}
+
+.borderRight{
+    border-right: 2px solid #d4d4d4; 
+}
+
+.borderLeft{
+    border-left: 2px solid #fbfbfb;
+}
+
+.p-15{
+    padding-left: 15px;
+}
+
+.welcomeTo{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.bigPara{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 900px;
+    color: #6e6e6e;  
+    font-size: 20px;
+}
+
+.sideBox{
+    background-color: #ffffff;
+    margin-right: 2px;
+    width: 420px;
+}
+
+.sideBox h2{
+    width: 230px;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2b2b2b;
+}
+
+.sideBoxP{
+    width: 240px;
+    font-size: 20px;
+    color: #7b7b7b;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.pLeftTop{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+a{
+    color: #6f6f6f;
+}
+
+.recycle{
+    width: 180px;
+    height: 292px;
+}
+
+.borderRadius{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer{
+    background-color: #0d0d0d;
+    color: #c4c4c4;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.infoMargin{
+    margin-top: 25px;
+}
+
+.infoMargin p{
+    margin-bottom: 10px;
+}
+
+.email{
+    margin-top: 40px;
+}
+
+footer h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+.pTop{
+    padding-top: 20px;
+}
+
+.infoMargin2{
+    margin-top: 25px;
+}
+
+.infoMargin2 p{
+    margin-bottom: 12px;
+    border-bottom: 1px solid #2e2d2d;
+    padding-bottom: 8px;
+    margin-right: 40px;
+}
+
+.mTop-10{
+    margin-top: 10px;
+}
+
+footer input{
+    background-color: #262626;
+    color: #858585;
+    border-style: none;
+    height: 30px;
+    width: 150px;
+}
+
+.buttonWidth{
+    width: 316px;
+}
+
+.mLeftInput{
+    margin-left: 5px;
+}
+
+footer button{
+    width: 100px;
+    height: 32px;
+    background: linear-gradient(180deg, rgba(35,35,35,1) 0%, rgba(19,19,19,1) 50%, rgba(12,12,12,1) 100%);
+    color: #7e7e7e;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.borderInputButton{
+    border: 2px solid black;
+}
+
+.p5{
+    padding-left: 5px;
+}
+
+.mTop{
+    margin-top: 20px;
+}
+
+.lastPara{
+    text-align: center;
+    color: #848484;
+    margin: 15px 0px;
+}

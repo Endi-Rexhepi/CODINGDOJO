@@ -1,0 +1,14 @@
+CSS code for the assignment
+
+<style>
+    .container {
+      display: inline-block;
+    }
+    .container textarea {
+      vertical-align: top;
+    }
+</style>
+<div class="container">
+    <p style="display:inline;">Message: </p>
+    <textarea></textarea>
+</div>
